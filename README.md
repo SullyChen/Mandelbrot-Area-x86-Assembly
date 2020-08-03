@@ -4,6 +4,7 @@ This repository contains x86 assembly code which approximates the area of the Ma
 # Requirements
 This code requires [nasm](https://www.nasm.us/) and [gcc](https://gcc.gnu.org/) to assemble and compile, respectively.
 
+# How to Run
 To assemble, run the following command:
 ```
 nasm -f elf32 mandelbrot.asm -o mandelbrot.o;
